@@ -19,7 +19,7 @@ def traduzir_colunas(df, colunas, traducoes):                                   
 #
 #######################################################################################
 # => Exemplo de aplicação em diferentes colunas da mesma tabela                       #  
-tabela = pd.read_excel('/home/david/autom/version2/files/setor-teste-dictionary.xlsx')#
+tabela = pd.read_excel('/home/david/autom/version2/files/for_test_setor.xlsx')#
 #######################################################################################
 #
 ######################################################
@@ -349,14 +349,14 @@ traducoes = {
     'PTS' : 'Projeto Técnico Social'
     # Setor Habitacional Contagem Sobradinho - is empty...
 }
-###########################################################################
-#              - Python Translater for geoprocessing files -              #
-###########################################################################
-# => Aplica a tradução às colunas                                         #
-tabela_traduzida = traduzir_colunas(tabela, colunas_a_traduzir, traducoes)#
-###########################################################################
+############################################################################
+#              - Python Translater for geoprocessing files -               #
+############################################################################
+# => Aplica a tradução às colunas                                          #
+tabela_traduzida = traduzir_colunas(tabela, colunas_a_traduzir, traducoes) #
+############################################################################
 #
-##################################################################################################
-# => Salva o DataFrame atualizado em um novo arquivo xlsx já traduzindo os valores nas células   #
-tabela_traduzida.to_excel('/home/david/autom/version2/files/tabela_traduzida.xlsx', index=False) #
-##################################################################################################
+#####################################################################################################################
+# => Salva o DataFrame atualizado em um novo arquivo xlsx já traduzindo os valores nas células                      #
+tabela_traduzida.to_excel('/home/david/autom/version2/files/resultados/traducao/translate_table.xlsx', index=False) #
+#####################################################################################################################
