@@ -3,8 +3,8 @@
 #   
 # README
 #
-#  Important! Change the path for your archive system.
-#  And, for facilities clone for the path if you are using linux python_translater_files_geoprocessing/var/www/html/ if you use #Linux because the project it's done in this path. In especify the results of Scripts is in ./files/resultados/...
+#  Important! Change the path for your archive system. Use pwd  in terminal / cli / bash / PowerShell for see your path => example/this/is/a/path/example
+#  And, for facilities clone for the path /var/www/html/ if you use #Linux because the project it's done in this path. In especify the results of Scripts is in python_translater_files_geoprocessing/files/resultados/...
 #
 # Install python && pip (package installer python) or use venv.
 # # Modules #
