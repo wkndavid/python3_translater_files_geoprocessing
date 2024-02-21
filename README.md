@@ -6,7 +6,7 @@
 #  Important! Change the path for your archive system. Use pwd  in terminal / cli / bash / PowerShell for see your path => example/this/is/a/path/example
 #  And, for facilities clone for the path /var/www/html/ if you use #Linux because the project it's done in this path. The results of Scripts is in python_translater_files_geoprocessing/files/resultados/...
 # Copy the command below and paste in any cli:
-git clone 'https://github.com/wkndavid/replace_shp_xlsx_csv_geo'
+git clone https://github.com/wkndavid/replace_shp_xlsx_csv_geo
 # Install python && pip (package installer python) or use venv.
 # # Modules #
 #
