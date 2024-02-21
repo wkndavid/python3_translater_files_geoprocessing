@@ -1,10 +1,13 @@
-# python_test_dictionary
+# python_dictionary_and_conversion_for_geoprocessing_files
+# 
 #   
 # README
 #
 #  Important! Change the path for your archive system.
-#  And, for facilities clone for the path /var/www/html/ if use linux,
-# because the project is based on this path. In especify ... 
+#  And, for facilities clone for the path /var/www/html/ 
+# if you use linux,
+# because the project it's done in this path. In especify
+# the results of Scripts is in /files/resultados/...
 #
 # Install python && pip (package installer python) or use venv.
 # # Modules #
