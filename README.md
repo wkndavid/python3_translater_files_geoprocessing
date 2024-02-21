@@ -2,8 +2,10 @@
 #   
 # README
 #
-# Important! Change the path for your archive system.
-# 
+#  Important! Change the path for your archive system.
+#  And, for facilities clone for the path /var/www/html/ if use linux,
+# because the project is based on this path. In especify ... 
+#
 # Install python && pip (package installer python) or use venv.
 # # Modules #
 #
