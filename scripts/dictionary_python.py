@@ -18,7 +18,7 @@ def traduzir_colunas(df, colunas, traducoes):                                   
 ################################################################################################
 #
 #######################################################################################
-# => Exemplo de aplicação em diferentes colunas da mesma tabela#                      #  
+# => Exemplo de aplicação em diferentes colunas da mesma tabela                       #  
 tabela = pd.read_excel('/home/david/autom/version2/files/setor-teste-dictionary.xlsx')#
 #######################################################################################
 #
