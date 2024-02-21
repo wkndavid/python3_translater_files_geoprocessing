@@ -17,3 +17,5 @@
 #    'pyarrow',
 #    'dbfread'
 # }
+#
+# See requirements.txt for other dependencies.

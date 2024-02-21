@@ -9,7 +9,7 @@ table = DBF(caminho_dbf, encoding='utf-8')
 df = pd.DataFrame(iter(table))
 
 # Caminho para salvar o arquivo XLSX
-caminho_xlsx = '/var/www/html/version2/files/resultados/result.xlsx'
+caminho_xlsx = '/var/www/html/version2/files/resultados/results_dbf_xlsx/results_dbf_xlsx.xlsx'
 
 # Salvar o DataFrame como XLSX usando pandas
 df.to_excel(caminho_xlsx, index=False, engine='openpyxl')
