@@ -4,8 +4,7 @@
 # README
 #
 #  Important! Change the path for your archive system.
-#  And, for facilities clone for the path /var/www/html/ 
-# if you use linux because the project it's done in this path. In especify the results of Scripts is in /files/resultados/...
+#  And, for facilities clone for the path if you are using linux /var/www/html/ if you use #Linux because the project it's done in this path. In especify the results of Scripts is in ./files/resultados/...
 #
 # Install python && pip (package installer python) or use venv.
 # # Modules #
