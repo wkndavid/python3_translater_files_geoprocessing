@@ -13,7 +13,7 @@ def traduzir_palavra(palavra, dicionario):          #
 def traduzir_colunas(df, colunas, traducoes):                                                  #     
     for coluna in colunas:                                                                     #     
         df[coluna] = df[coluna].apply(lambda x: ' '.join(traduzir_palavra(palavra, traducoes)  #
-         for palavra in re.findall(r'\b\w+\b', str(x)))).str.upper()                           #             
+         for palavra in re.findall(r'\b\w+\b', str(x)))).upper() # change version str.upper()  #             
     return df                                                                                  # 
 ################################################################################################
 #
