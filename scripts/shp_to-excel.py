@@ -20,4 +20,7 @@ gdf_temp = gdf.copy()
 del gdf_temp['geometry']
 
 # Salva o GeoDataFrame como um arquivo Excel usando o Pandas
-gdf_temp.to_excel(caminho_excel, index=False, engine='openpyxl')
+gdf_temp.to_excel(caminho_excel, index=False, engine='openpyxl', encoding='utf-8')
+
+
+    
